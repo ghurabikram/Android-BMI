@@ -23,7 +23,7 @@
         <nb-button transparent info :onPress="clearInput">
             <nb-text>Clear</nb-text>
         </nb-button>
-        <nb-text v-if="bmi">BMI, {{bmi}}</nb-text>
+        <nb-text v-if="bmi">BMI: {{bmi}}</nb-text>
       </nb-content>
     </nb-container>
     
