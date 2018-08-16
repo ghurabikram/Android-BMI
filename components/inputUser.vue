@@ -4,18 +4,18 @@
       <nb-content>
         <nb-form>
           <nb-item>
-            <nb-input placeholder="Enter Your Name" v-model="userName"/>
+            <nb-input placeholder="Name" v-model="userName"/>
           </nb-item>
           <nb-item>
             <nb-text v-if="userName">Hello, {{userName}}</nb-text>
           </nb-item>
           <nb-item>
-            <nb-input v-model="weight" placeholder="Enter Your Weight in lb"/>
+            <nb-input v-model="weight" placeholder="Weight in lb"/>
           </nb-item>
           <nb-item>
-            <nb-input v-model="heightFtIn" placeholder="Enter Your Height in ft"/>
+            <nb-input v-model="heightFtIn" placeholder="Height in ft"/>
           </nb-item>
-          
+    
         </nb-form>
         <nb-button transparent info :onPress="calcBmi">
             <nb-text>Calculate BMI</nb-text>
