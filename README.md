@@ -1,2 +1,2 @@
 # Android-BMI
-BMI Calculator in Vue Native & NativeBase
+Simple Android app in Vue Native & NativeBase
